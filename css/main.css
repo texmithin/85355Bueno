@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .navbar-brand img {
     filter: brightness(1.9);
     position: absolute;
