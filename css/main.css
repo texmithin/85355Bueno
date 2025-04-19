@@ -12,7 +12,7 @@
 }
 
 .navbar {
-    padding: 30px 30px; /* Mantiene el tamaño y el espaciado de la barra de navegación */
+    padding: 30px 30px; 
 }
 
 .navbar-toggler {
@@ -37,3 +37,40 @@
 .btn-danger{
     padding-top: 1rem;
 }
+
+/* Crear Sesion Usuarios */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #dbdee1; 
+  }
+  
+  .imagenes-contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+  }
+  
+  .grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #dbdee1; 
+  }
+  
+  .grid-container img {
+    max-width: 160%;
+    height: auto;
+  }
+  
+  .botonInicioSesion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #ffffff; 
+  }
+  
